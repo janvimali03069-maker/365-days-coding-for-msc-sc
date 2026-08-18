@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int n=0; pf/sf;
+int rev=0;
+while(n>0)
+{
+int tmp = n % 10;
+rev=(rev*10)+tmp;
+n=n/10;
+}
+return 0;
+}
