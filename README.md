@@ -1,4 +1,4 @@
-# 365-days-coding-for-msc-sc
+# 365-days-coding
 This is my first Resporsitory .
 <br>
 Author - Janavi Mali
