@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+for(i=1 to n-1)
+{
+p-i
+max-aii
+for(l-i+1 to n)
+{
+if(plil>max)
+{
+max=ail
+p=1
+}
+}
+if|max|<e
+exit("|| continued system")
