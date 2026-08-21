@@ -1,0 +1,10 @@
+/* interchange rows i& p */
+if(p=i)
+{
+for j=(1  to n+1)
+{
+temp=aij
+aij=apj
+apj=temp
+}
+}
