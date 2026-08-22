@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+Fibonacci 2(n)
+int Afib[n],
+{
+A fib[0]=0;
+     [1]=1;
+for[i == tan]
+{
+A fib[i]=A fib[i-1]+ A fib[2]
+}
+return 0;
+}
+}
