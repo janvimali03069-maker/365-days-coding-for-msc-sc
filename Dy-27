@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+  Max=A[1];
+for(i=2 to n)
+if A[i]>max
+Max=A[i];
+return Max;
+}
