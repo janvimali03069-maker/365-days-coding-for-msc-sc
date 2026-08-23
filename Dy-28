@@ -1,0 +1,13 @@
+{
+Count =Count ++;
+if(n=0)
+{
+Count-Count+1;
+return 0;
+}
+else
+{
+Count = Count +1;
+Return R sum(A1,n-n)+ A[n];
+}
+}
