@@ -1,0 +1,13 @@
+#include<iostream>
+Using namespace std;
+int main()
+{
+int n=0;
+Cout<<"Enter n: ";
+C in >> n;
+for
+(int =0; i<n; i++)
+arr[i]=i;
+for
+(int=0; i<n; i++)
+Cout<<arr[i]<<"\t";
