@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int n=1;
+int fact=1;
+while(fact<=2147483647/(n+1))
+{
+n++;
+fact=fact*n;
+}
+printf("Largest value of n=%d",n);
+return 0;
+}
