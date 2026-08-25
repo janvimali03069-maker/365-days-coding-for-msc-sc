@@ -1,0 +1,17 @@
+#include<iostream>
+int main()
+{
+vector<int>arr;
+while(1)
+{
+int tmp=-1;
+Cout<<"Enter val:";
+Cin>>temp;
+if(tmp==0)
+    break;
+arr.push_back(tmp);
+}
+for(int i=0; i<arr.size(); ++i)
+Cout<<arr[i]<<"\t";
+return 0;
+}
