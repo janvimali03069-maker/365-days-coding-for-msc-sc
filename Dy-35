@@ -1,0 +1,12 @@
+Vector<int>runningSum(Vector<int>&nums)
+{
+Vector<int>ans;
+int tmp Ans=0;
+int sz=Nums.size();
+for(int i=0; i<sz; i++)
+{
+tmpAns+=nums[i];
+ans.push_back(tmp Ans);
+}
+return ans;
+}
