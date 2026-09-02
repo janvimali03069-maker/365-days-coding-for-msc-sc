@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+int n,i;
+int a=0,b=1,c;
+int sum=0;
+float ratio;
+
+printf("Enter n: ");
+scanf("%d",&n);
+
+printf("Fibonacci series: ");
+
+for(i=1;i<=n;i++)
+{
+printf("%d",a);
+sum=sum+a;
+
+c=a+b;
+a=b;
+b=c;
+}
+
+ratio=(float)b/a;
+
+printf("\nSum=%d",sum);
+printf("\nRatio=%.6f",)ratio);
+
+return 0;
+}
