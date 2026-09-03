@@ -1,0 +1,11 @@
+while(W<R)
+{
+  if(nums[W]==val)
+  {
+    if(nums[R]==val)
+      R++
+      else
+      swap(nums[W],nums[R]);
+      W++;
+  }
+}
