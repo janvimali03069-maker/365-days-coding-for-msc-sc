@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+int PASSWORD=1234;
+int attempt_cnt=0;
+while(attempt_cnt<=3)
+{
+printf("Enter pwd");
+scanf("%d",&pwd);
+if(pwd==PASSWORD)
+{
+printf("Access Granted");
+return 0;
+}
+else
+{
+attempt_cnt ++;
+printf("Wrong Password");
+printf("%d attempts left",3_attempt cnt);
+}||else
+}||else
+}
