@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+int ans[n];
+for(i=0; i<n; i++)
+{
+sum+=nums[i];
+ans[i]=sum;
+}
+}
