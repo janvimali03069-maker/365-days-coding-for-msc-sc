@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main()
+{
+int n,a[100];
+int i,j,count,distinct=0;
+int maxFreq=0, mostFrequent;
+printf("Enter n:");
+scanf("%d",&n);
+printf("Enter elements:\n");
+for(i=0; i<n; i++)
+scanf("%d",&a[i]);
+printf("\n")
+for(i=0; i<n; i++)
+{
+int already=0;
+for(j=0; j<i; j++){
+if(a[i]==a[j]){
+already=1;
+break;
+}
+}
+if (already)
+continue;
+count=0;
+for(j=0; j<n; j++){
+if(a[i]==a[j])
+count++;
+}
+printf("%d occurs %d times\n",a[i],count);
+distinct++;
+if(count>maxFreq){
+maxFreq=count;
+mostFrequent=a[i];
+}
+}
+printf("Distinct=%d\n",distinct);
+printf("Most frequent=%d\n",mostFrequent);
+return 0;
+}
