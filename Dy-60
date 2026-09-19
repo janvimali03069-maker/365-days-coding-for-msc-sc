@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+int main() {
+    int n, a[100], even[100], odd[100];
+    int i, ec = 0, oc = 0;
+    int evenSum = 0, oddSum = 0;
+
+    printf("Enter n: ");
+    scanf("%d", &n);
+
+    printf("Enter elements:\n");
+    for (i = 0; i < n; i++)
+        scanf("%d", &a[i]);
+
+    for (i = 0; i < n; i++) {
+        if (a[i] % 2 == 0) {
+            even[ec] = a[i];
+            evenSum += a[i];
+            ec++;
+        } else {
+            odd[oc] = a[i];
+            oddSum += a[i];
+            oc++;
+        }
+    }
+
+    printf("\nEven: ");
+    for (i = 0; i < ec; i++)
+        printf("%d ", even[i]);
+
+    printf("(count = %d, sum = %d)", ec, evenSum);
+
+    printf("\nOdd: ");
+    for (i = 0; i < oc; i++)
+        printf("%d ", odd[i]);
+
+    printf("(count = %d, sum = %d)", oc, oddSum);
+
+    if (evenSum > oddSum)
+        printf("\nEven sum is larger by %d", evenSum - oddSum);
+    else if (oddSum > evenSum)
+        printf("\nOdd sum is larger by %d", oddSum - evenSum);
+    else
+        printf("\nBoth sums are equal");
+
+    return 0;
+}
