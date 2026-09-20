@@ -1,0 +1,64 @@
+#include <stdio.h>
+
+int main() {
+    int n, marks[100];
+    int i, countA = 0, countB = 0, countC = 0, countF = 0;
+    int highest, lowest, sum = 0;
+    float average;
+
+    printf("Enter number of students: ");
+    scanf("%d", &n);
+
+    for (i = 0; i < n; i++) {
+
+        do {
+            printf("Enter marks of student %d: ", i);
+            scanf("%d", &marks[i]);
+
+            if (marks[i] < 0 || marks[i] > 100)
+                printf("Invalid! Enter marks between 0 and 100.\n");
+
+        } while (marks[i] < 0 || marks[i] > 100);
+
+        sum += marks[i];
+
+        if (i == 0) {
+            highest = lowest = marks[i];
+        } else {
+            if (marks[i] > highest)
+                highest = marks[i];
+
+            if (marks[i] < lowest)
+                lowest = marks[i];
+        }
+
+        if (marks[i] >= 80)
+            countA++;
+        else if (marks[i] >= 60)
+            countB++;
+        else if (marks[i] >= 40)
+            countC++;
+        else
+            countF++;
+    }
+
+    average = (float)sum / n;
+
+    printf("\nGrade A = %d students", countA);
+    printf("\nGrade B = %d students", countB);
+    printf("\nGrade C = %d students", countC);
+    printf("\nGrade F = %d students", countF);
+
+    printf("\nHighest mark = %d", highest);
+    printf("\nLowest mark = %d", lowest);
+    printf("\nClass average = %.2f", average);
+
+    printf("\nStudents scoring above average: ");
+
+    for (i = 0; i < n; i++) {
+        if (marks[i] > average)
+            printf("%d ", i);
+    }
+
+    return 0;
+}
