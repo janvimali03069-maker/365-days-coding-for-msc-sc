@@ -1,0 +1,48 @@
+#include<stdio.h>
+int main()
+{
+pf/sf distinct=0,largest
+{
+for i=0-n
+count=1
+if(a[i]==INT_MIN)
+continue;
+for j=i+1-n;
+if(a[j]!=INT_MIN)
+&& a[i]=a[j])
+{
+count ++;
+}
+distinct ++;
+}
+largest num(largest,count);
+int distinct=0,frequency=0;
+for(int i=0; i<n; i++)
+{
+if(a[i]==INT_MIN)
+{
+continue;
+}
+int count=1;
+for(j=i+1; j<n; j++)
+{
+if(a[j]!=INT_MIN && a[j]==a[i])
+{
+count ++;
+a[j]=INT_MIN;
+}
+}
+pf("%d,-%d times",a[i],count);
+distinct ++;
+frequency=max(freq,count);
+}
+||end for(i)
+
+
+
+
+
+
+
+
+
