@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+int e[n],0[n];
+int e-i=0; 0i=0;
+int sum-e=0,sum-0=0;
+for(i=o; i<n; i++)
+{
+if(a[i]% %2==0)
+if E[e-i]=a[i];
+e_i++; sum_e+=a[i];
+}
+else
+{
+a[0-i]=a[i];
+0_i++;sum_0+a=a[i];
+}
+}
