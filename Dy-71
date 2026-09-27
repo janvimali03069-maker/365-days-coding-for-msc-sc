@@ -1,0 +1,7 @@
+ransom = "a"
+magazine = "b"
+
+if ransom in magazine:
+    print(True)
+else:
+    print(False)
