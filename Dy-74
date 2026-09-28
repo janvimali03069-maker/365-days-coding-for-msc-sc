@@ -1,0 +1,22 @@
+int s_1=s.size();
+int t_1=t.size();
+if(s_1 ! = t_1)return flase
+Unordered_map<char.int>
+s_nt,t_nt;
+
+for(int i=0; i<s_1; i++)
+s_nt[s[i]]++;
+
+for(int i=0; i<t_1; i++)
+t_nt[t[i]]++;
+
+for(also e:s_nt)
+{
+//if(t-nt.find(e.first)
+    !t_nt.count(e.first||
+if(e.second ! =t_nt[e.first])
+{
+// return false;
+}
+return true;
+s
