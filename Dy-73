@@ -1,0 +1,12 @@
+Unordered_map(int,int)HT;
+for(int i=0; i<n; i++)
+  HT[nums[i]]++;
+{
+  Vector<int>ans;
+  for(int i=1; i<=n; i++)
+  {
+    if(!HT.Count(i))
+      ans.push_back(i)
+  }
+  return ans;
+}
