@@ -1,0 +1,8 @@
+i=n-1
+while(s[i]='')
+i--;
+end=i;
+while(s[i]!='')
+i--;
+start=i+1
+length=end_start+1
