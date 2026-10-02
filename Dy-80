@@ -1,0 +1,27 @@
+ch=strs[0][0]
+for(r=1; r<R; r++)
+{
+if(strs[r][c]!=ch)
+{
+break;
+}
+}
+String result;
+for(c=0; c<c; c++)
+{
+bool flag==true;
+ch=strs[0][c]//f
+for(r=1; r<R; r++)
+{
+if(strs[r][c]!=ch)
+{
+flag=false;
+break;
+}
+}
+if(flag==true)
+result=ch;
+else
+return result;
+}
+return result;
