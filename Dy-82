@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int n=0;
+pf/sf
+double sqt=0;
+if(n>0)
+sqt=sqrt(n);
+double rp=0;
+if(n!=0)
+(rp=1/n);
