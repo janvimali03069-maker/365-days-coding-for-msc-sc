@@ -1,0 +1,10 @@
+while(L<=H)
+{
+if(nums[l]>=nums[H]
+ans[W]=nums[L];
+L++;
+else
+ans[W]=nums[H]
+H--;
+W--;
+}
