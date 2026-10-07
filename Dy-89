@@ -1,0 +1,14 @@
+int globalSum=INTMIN;
+int sum=0;
+for(i=0; i<k; i++)
+{
+Sum +=nums[i];
+int i=1; globalSum=Sum;
+while(i<=n-k)
+{
+sum=sum-nums[i-1]+nums[k+i-1];
+globalSum=max(gSum,Sum);
+i++;
+}
+return double(globalSum)+k;
+}
