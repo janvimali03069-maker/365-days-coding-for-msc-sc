@@ -1,0 +1,15 @@
+Iterative-DFS
+DFS(G,SV)
+{
+Stack.Push(SV);
+while(stack!=Empty)
+{
+u=stack.pop();
+if(state[v]!=v)
+{
+state[u]=v;
+for each w adj[u]
+stack.push[w];
+}
+}
+}
