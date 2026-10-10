@@ -1,0 +1,16 @@
+for(i=1; i<=n; i++)
+{
+if(isBadversion(i)=-1)
+return (i);
+}
+10=1,hi=n;
+while(10<hi)
+{
+int mid=10+(hi-10)/2;
+bool bad=isBadversion(mid);
+if(isBad==1)
+hi=mid;
+else if(isBad==0)
+10=mid+1;
+}
+return 10;
