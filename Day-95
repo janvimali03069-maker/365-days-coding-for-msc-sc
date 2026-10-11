@@ -1,0 +1,9 @@
+while(low<high)
+{
+mid=10+(hi-10)/2
+if(nums[mid]==t)
+return mid;
+else if(nums[mid]<t)
+10=mid+1;
+else high=mid-1;
+return low;
