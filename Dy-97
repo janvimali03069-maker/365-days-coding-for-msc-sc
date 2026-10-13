@@ -1,0 +1,17 @@
+hidden_websites={
+"hidden1.onion": "Welcome to the hidden website!",
+"hidden2.onion": "This is a private discussion forum.",
+"hidden3.onion": "Educational cybersecurity information."
+}
+print("=== Dark Web Simulation ===")
+print("Educational demonstration only")
+print("Avaliable hidden websites:")
+print("1.hidden1.onion")
+print("2.hidden2.onion")
+print("3.hidden3.onion")
+website=input("\nEnter website address:").strip()
+if website in hidden_websites:
+print("\nConnecting to simulated website...")
+printf("Website content:",hidden_websites[website])
+else:
+print("\nWebsite not found in the simulation.")
