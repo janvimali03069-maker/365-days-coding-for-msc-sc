@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    printf("Imagine a world where anything is possible!\n");
+    printf("Dream big, think creatively, and create the impossible.\n");
+
+    return 0;
+}
