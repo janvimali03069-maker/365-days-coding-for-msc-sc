@@ -1,0 +1,14 @@
+if(x<0//x%10==0)
+return false;
+int orq_x=x;
+int rev=0;
+while(x>0)
+{
+int d=x%10;
+rev=(rev*10)+d
+x=x/10;
+}
+if(rev==orq_x)
+return true;
+else
+return false;
