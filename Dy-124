@@ -1,0 +1,13 @@
+Vector<int>data;
+//check if n data
+while(1)
+{
+for(i=0; i<datasize(); i++)
+{
+if(data[i]==n)return false
+data.push_back(n);
+}
+n=next(n);
+if(n==1)
+return true;
+}
