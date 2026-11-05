@@ -1,0 +1,17 @@
+bool is SameTree(TreeNode*P,TreeNode*q)
+{
+if(p==nullptr && ==nullptr)
+{
+return true;
+}
+if(p==nullptr||q==nullptr)
+{
+return false;
+}
+if(p->val !=q->val)
+{
+return false;
+}
+return is SameTree(P->left,q->left)
+&& isSameTree(p->right,q->right);
+}
