@@ -1,0 +1,12 @@
+Q.Push({P,targetSum});
+while(!Q.empty())
+{
+auto[a,b]=Q.front();Q.pop();
+if(a-Lf!=null)
+Q.push({a-Lf,b-val-a});
+if(a-rt!=null)
+Q.push({a-rt,b-val-a});
+if(a-Lf==NULL && a-rt== NULL && a-val==b)
+return true;
+}
+return false;
