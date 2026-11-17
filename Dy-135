@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int arr[5] = {0, 1, 0, 1, 1};
+
+    printf("Binary Array: ");
+
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
+}
