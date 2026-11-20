@@ -1,0 +1,9 @@
+from datetime import datetime
+
+now = datetime.now()
+
+month_number = now.month
+year = now.year
+
+print("Month Number:", month_number)
+print("Year:", year)
